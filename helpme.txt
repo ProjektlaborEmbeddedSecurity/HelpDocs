@@ -4,3 +4,8 @@ http://www.s6z.de/cms/index.php/homeautomation-homecontrol/hardwareplattformen/e
 Example for Esp8266
 
 http://arduino-er.blogspot.de/2015/04/connect-esp8266-wifi-module-to-arduino.html 
+
+
+Connecting via AT-Commands
+
+https://alselectro.wordpress.com/2015/05/05/wifi-module-esp8266-1-getting-started-with-at-commands/
