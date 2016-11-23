@@ -1,12 +1,34 @@
 MQTT
 http://www.s6z.de/cms/index.php/homeautomation-homecontrol/hardwareplattformen/esp8266/113-mqtt-basic-esp8266-mqtt-example
 
+-----------------------------------------------
+
 Example for Esp8266
 
 http://arduino-er.blogspot.de/2015/04/connect-esp8266-wifi-module-to-arduino.html 
 
+-----------------------------------------------
 
 Connecting via AT-Commands
 
 https://alselectro.wordpress.com/2015/05/05/wifi-module-esp8266-1-getting-started-with-at-commands/
 https://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/
+
+-----------------------------------------------
+
+Web-Sniffer für HTTP Header
+
+http://web-sniffer.net/
+
+-----------------------------------------------
+
+HTTP Request auf adafruit io:
+- group = weather
+- feed = testfeed
+=> Wert wird aktualisier
+https://io.adafruit.com/api/groups/weather/send.json?x-aio-key=f27fa137d3934140a44974f37003de00&testfeed=20
+
+-----------------------------------------------
+
+HTTP Status Anfragen
+https://learn.adafruit.com/adafruit-io/http-status-codes?view=all
