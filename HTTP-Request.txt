@@ -1,0 +1,133 @@
+Request:
+
+"GET /api/groups/weather/send.json?x-aio-key=f27fa137d3934140a44974f37003de00&testfeed=33 HTTP/1.1\r\n
+Host: io.adafruit.com\r\n
+\r\n"
+
+======================================================
+Response:
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Status: 200 OK
+X-AIO-Worker: ip-172-31-58-198
+Cache-Control: max-age=0, private, must-revalidate
+X-XSS-Protection: 1; mode=block
+X-Request-Id: 6d7ad78c-4794-42a3-a354-4c668b6d720a
+ETag: W/"80f5df002ab7eeef647b66c6e06c10ba"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.048733
+X-Content-Type-Options: nosniff
+Date: Thu, 24 Nov 2016 10:09:15 GMT
+X-Powered-By: Phusion Passenger 5.0.28
+Server: nginx + Phusion Passenger 5.0.28
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Headers: DNT,X-AIO-Key,Accept,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+
+316
+{
+  "id":99300,
+  "name":"weather",
+  "key":"weather",
+  "description":null,
+  "source":null,
+  "properties":null,
+  "source_keys":null,
+  "created_at":"2016-11-23T07:28:55.764Z",
+  "updated_at":"2016-11-23T07:28:55.817Z",
+  "feeds":[
+    {
+      "id":626118,
+      "name":"testfeed",
+      "key":"testfeed",
+      "unit_type":null,
+      "unit_symbol":null,
+      "mode":null,
+      "history":true,
+      "last_value":"33",
+      "last_value_at":"2016-11-24T10:09:15.396Z",
+      "created_at":"2016-11-23T07:28:55.786Z",
+      "updated_at":"2016-11-24T10:09:15.407Z",
+      "stream":{
+        "id":1701997308,
+        "value":"33",
+        "lat":null,
+        "lon":null,
+        "ele":null,
+        "completed_at":null,
+        "created_at":"2016-11-24T10:09:15.396Z"
+      }
+    }
+  ]
+}
+======================================
+Post-Request:
+
+"POST /api/groups/weather/send.json?x-aio-key=f27fa137d3934140a44974f37003de00&testfeed=10 HTTP/1.1\r\n
+Host: io.adafruit.com\r\n
+\r\n"
+
+=====================================
+Response
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Status: 200 OK
+X-AIO-Worker: ip-172-31-58-198
+Cache-Control: max-age=0, private, must-revalidate
+X-XSS-Protection: 1; mode=block
+X-Request-Id: 757b1e54-5e4a-48df-945f-5e13492e4d4f
+ETag: W/"be8e7870ea36d51611033a35c4869cc6"
+X-Frame-Options: SAMEORIGIN
+X-Runtime: 0.046257
+X-Content-Type-Options: nosniff
+Date: Thu, 24 Nov 2016 10:18:19 GMT
+X-Powered-By: Phusion Passenger 5.0.28
+Server: nginx + Phusion Passenger 5.0.28
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Headers: DNT,X-AIO-Key,Accept,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+
+316
+{
+  "id":99300,
+  "name":"weather",
+  "key":"weather",
+  "description":null,
+  "source":null,
+  "properties":null,
+  "source_keys":null,
+  "created_at":"2016-11-23T07:28:55.764Z",
+  "updated_at":"2016-11-23T07:28:55.817Z",
+  "feeds":[
+    {
+      "id":626118,
+      "name":"testfeed",
+      "key":"testfeed",
+      "unit_type":null,
+      "unit_symbol":null,
+      "mode":null,
+      "history":true,
+      "last_value":"10",
+      "last_value_at":"2016-11-24T10:18:19.158Z",
+      "created_at":"2016-11-23T07:28:55.786Z",
+      "updated_at":"2016-11-24T10:18:19.168Z",
+      "stream":{
+        "id":1702048763,
+        "value":"10",
+        "lat":null,
+        "lon":null,
+        "ele":null,
+        "completed_at":null,
+        "created_at":"2016-11-24T10:18:19.158Z"
+      }
+    }
+  ]
+}
+
+0
