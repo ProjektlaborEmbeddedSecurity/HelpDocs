@@ -1,0 +1,25 @@
+Mit ESP8266:
+- Die meisten Bibliotheken waren nicht dafür geeignet den ESP über den Arduino anzusprechen
+  - Sie eigneten sich eher dafür per Arduino IDE auf den ESP direkt zu schreiben
+
+- Anfälligkeit für Spannungs-/Stromschwankungen
+  - Gelegentlich startete der ESP nicht, wure jedoch ein Strom zum Beispiel mit Hilfe eines Potentiometers indiziert so lief er an
+    - anderer Workaround: Warten bis Potential erreicht wurde
+
+- DNS - Fehler
+  Die zugewiesene IP-Adresse war gelegentlich nicht im Subnetz und musste über einen AT-Befehl nachjustiert werden
+
+Mit DHT11:
+
+- ????
+
+
+Mit Ultraschallsensor
+- x
+
+
+Mit Adafruit-IO:
+
+- Keine direkte Arduino DUE untersützung, da DUE depricated
+- Keine Unterstützung von Boards die kein Ethernet Modul direkt angeschlossen hatten (wenn dann über Ethernet Shield)
+- Keine Untersützung von einem angeschlossenen ESP
