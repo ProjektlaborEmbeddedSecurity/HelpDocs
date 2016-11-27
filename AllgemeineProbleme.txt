@@ -9,6 +9,11 @@ Mit ESP8266:
 - DNS - Fehler
   Die zugewiesene IP-Adresse war gelegentlich nicht im Subnetz und musste über einen AT-Befehl nachjustiert werden
 
+- find() - deprciated Function
+  String muss als char* (Pointer) gecastet werden, dann gibt es weniger Probleme und er findet den gesuchten String besser
+
+
+
 Mit DHT11:
 
 - ????
