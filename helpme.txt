@@ -32,3 +32,7 @@ https://io.adafruit.com/api/groups/weather/send.json?x-aio-key=f27fa137d3934140a
 
 HTTP Status Anfragen
 https://learn.adafruit.com/adafruit-io/http-status-codes?view=all
+
+
+IFTTT - Trigger Setup
+https://learn.adafruit.com/using-ifttt-with-adafruit-io/ifttt-to-adafruit-io-setup
